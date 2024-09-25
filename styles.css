@@ -4,6 +4,9 @@ html {
 
 body {
   margin:0;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
 }
 
 .bg {
@@ -32,12 +35,13 @@ body {
   border-radius:.25em;
   box-shadow:0 0 .25em rgba(0,0,0,.25);
   box-sizing:border-box;
-  left:50%;
-  padding:10vmin;
-  position:fixed;
+  /* left:50%; */
+  padding:9vmin;
+  /* position:fixed; */
   text-align:center;  
-  top:50%;
-  transform:translate(-50%, -50%);
+  /* top:50%;
+  transform:translate(-50%, -50%); */
+  width: 1000px;
 }
 
 h1 {
